@@ -2,15 +2,16 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
 
-    height: 60px:
-    background-color:#791E94;
-    
+    height: 60px;
+    background-color: #4bc3ca;
+    color: #fff;
+
 
     .counteiner{
 
-        pading: 5px,20 px
-        display: flex
-
+        padding: 5px 20 px;
+        display: flex;
+        align-items:center;
     }
         .logo{
             flex:1;
@@ -22,8 +23,7 @@ export const AreaHeader = styled.div`
             }
                 li{
                     list-style: none;
-                    margin-left: 20px
-
+                    margin-left: 20px;
                 }
 
         }

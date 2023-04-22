@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Header from './Painel/Header';
 import Footer from './Painel/Footer';
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Header/>
+        <div>paginas</div>
 
       <Footer/>
       
