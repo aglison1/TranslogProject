@@ -1,27 +1,15 @@
-import React from "react";
-
-import {AreaHeader} from '.styled';
+import './header.css';
+import {link} from 'react-router-dom';
 
 function Header(){
     return(
 
-        <AreaHeader>
-            
-                <div className="counteiner">
-                    <div className="logo">
-                        logo
-                    </div>
+        <header>
 
-                    <nav>
-                        <ul>
-                            <li>configuracoes</li>                             
-                            <li>sair</li>
-                        </ul>
-                    </nav>
+            <nav className='navbar'></nav>
 
-                </div>
-            
-        </AreaHeader>
+        </header>
+          
     );     
 
 }
