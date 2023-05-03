@@ -1,9 +1,9 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes,Route} from 'React-router-dom';
+
 
 import Home from './pages/Home';
 import Cadastro from './components/Cadastro';
 import Header from './components/Header';
-
 
 function RoutesApp(){
     return(

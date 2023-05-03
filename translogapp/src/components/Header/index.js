@@ -6,11 +6,10 @@ function Header(){
 
         <header>
 
-            <nav className='navbar'></nav>
+            <link className = "Logo" to="/"> TranslogAPP</link>
+            <link className = "LinkCadastro" to="Cadastro"> Cadastro</link>
 
-        </header>
-          
-    );     
-
+        </header>  
+    ); 
 }
 export default Header;

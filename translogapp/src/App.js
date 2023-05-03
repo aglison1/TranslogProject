@@ -1,17 +1,22 @@
-import RoutesApp from './components/routes';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 
-
-import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import './App.css';
 
 function App() {
   return (
+    <Router>
+      <ul>
+        <li> Home</li>
+        <li> Contato</li>
+      </ul>
 
-   <div className="App">
-      <RoutesApp/>
-   </div>
+      <Switch>
+        <Route path = "/">
+        <Home/>
+        
+        </Route>
+      </Switch>
+  
+    <Router>
   
   );
 }
